@@ -17,16 +17,16 @@
   }
 }
 .strip-primary-gradient {
-  background-image: linear-gradient(to right, $primary, $secondary);
+  background-image: linear-gradient(to right, $primary, $lighter-tone);
 }
 .strip-primary-gradient-top-bottom {
-  background-image: linear-gradient(to bottom, $primary, $secondary);
+  background-image: linear-gradient(to bottom, $primary, $lighter-tone);
 }
 .strip-primary {
   background-color: $primary;
 }
 .strip-secondary {
-  background-color: $secondary;
+  background-color: $lighter-tone;
 }
 
 .strip-diagonal-right {
