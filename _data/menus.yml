@@ -1,0 +1,18 @@
+main:
+  - name: "Usluge"
+    url: "/services/"
+    weight: 2
+  - name: "O nama"
+    url: "/about/"
+    weight: 3
+  - name: "Kontakt"
+    url: "/contact/"
+    weight: 4
+
+footer:
+  - name: "Početak"
+    url: "/"
+    weight: 1
+  - name: "Kontakt"
+    url: "/contact/"
+    weight: 2

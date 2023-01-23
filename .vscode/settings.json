@@ -1,0 +1,21 @@
+{
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/tmp": true,
+    "**/_site": true,
+    "**/.jekyll-cache": true
+  },
+  "editor.tabSize": 2,
+  "nrf-connect.topdir": "c:\\Users\\BBBbbb\\zephyrproject",
+  "nrf-connect.toolchain.path": "PATH"
+}
