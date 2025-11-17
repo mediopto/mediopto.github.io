@@ -4,7 +4,7 @@ date: 2024-01-01
 layout: services
 description: "Comprehensive medical optical solutions including equipment service, devices, training, and consulting."
 permalink: "/services/"
-intro_image: "images/illustrations/cropped-logo.png"
+intro_image: "images/illustrations/cropped-logo.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
