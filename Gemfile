@@ -1,5 +1,12 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "webrick", "~> 1.7"
-gem "jekyll", "~> 4.2"
-gem "jekyll-environment-variables"
+gem 'github-pages', group: :jekyll_plugins
+gem 'webrick'
+gem 'sass', '~> 3.7.4'
+gem 'jekyll-sass-converter', '~> 1.5.2'
+
+group :jekyll_plugins do
+  gem 'jekyll-paginate'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-environment-variables'
+end

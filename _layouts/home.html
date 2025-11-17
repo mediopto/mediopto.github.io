@@ -23,24 +23,9 @@ bodyClass: "page-home"
 
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
-    <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.services limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-            </h2>
-            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
     <div class="row justify-content-center">
       <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">Sve naše usluge</a>
+        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
       </div>
     </div>
   </div>
@@ -63,6 +48,27 @@ bodyClass: "page-home"
       </div>
       {% endfor %}
 
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if site.data.references %}
+<div class="strip">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <h2 class="text-center mb-5">References</h2>
+        <div class="row justify-content-center">
+          {% for reference in site.data.references %}
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="reference text-center">
+              <a href="{{ reference.url }}" target="_blank" rel="noopener noreferrer">{{ reference.name }}</a>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
     </div>
   </div>
 </div>

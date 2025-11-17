@@ -1,16 +1,7 @@
 [
   {
-    "title": "Servis",
-    "description": "Sevis medicinske opereme iz oblasti oftalmologije, otorinologije o ginekologije.",
-    "image": {
-      "url": "images/features/noun_branding_1885335.svg",
-      "width": 80,
-      "height": 80
-    }
-  },
-  {
-    "title": "Konsultantske usluge",
-    "description": "Konsultantske usluge u opremanju ordinacija i specijalizovanih bolnica.",
+    "title": "Carl Zeiss Meditec",
+    "description": "Specializing in ophthalmic systems and microsurgery equipment.",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
@@ -18,8 +9,44 @@
     }
   },
   {
-    "title": "Uređaji",
-    "description": "TBD: Prodaja medicnske opreme",
+    "title": "Wavelight",
+    "description": "Modern diagnostic and surgical technologies for the correction of vision errors with eye lasers.",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Ilooda",
+    "description": "Focus is on aesthetic (cosmetic) medical devices, such as lasers, RF systems, and HIFU (High Intensity Focused Ultrasound) devices.",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Hashin Medical",
+    "description": "50 years of producing medical sterilizers and refrigirators",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Optotek Medical",
+    "description": "Specializes in developing innovative optical and laser solutions and technologies for applications in medicine and life environmental.",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Ellman International",
+    "description": "Advanced radiofrequency (RF) technology for precision surgical and aesthetic procedures.",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,

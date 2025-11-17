@@ -1,43 +1,38 @@
-url: hhtps://www.mediopto.com # added later
-baseurl: '/'
+baseurl: ''
 permalink: pretty
 title: 'MediOpto'
+description: 'Medical equipment and services provider specializing in optical and diagnostic solutions.'
+url: 'https://wallabbb.github.io'
 
-logo:
-  mobile: "images/logo/logo-mobile.svg"
-  mobile_height: "32px"
-  mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "32px"
-  desktop_width: "120px"
+logo: '/images/logo/logo.svg'
+logo_mobile: '/images/logo/logo-mobile.svg'
 
-home: 
-  limit_services: 6
-
+# Collections
 collections:
   services:
     output: true
-    sort_by: weight
-  team:
-    output: true
+    permalink: /services/:path/
 
-defaults:
-  - scope:
-      path: ""
-      type: "services"
-    values:
-      layout: "service"
-  - scope:
-      path: ""
-      type: "team"
-    values:
-      layout: "team"
+# Default author settings
+author:
+  name: 'Your Name'
+  image: '/images/author.jpg'
+
+# Footer
+footer:
+  copyright_text: '© 2024 MediOpto. All rights reserved.'
+
+# Configure Jekyll to include _pages directory
+include:
+  - _pages
 
 sass:
-  style: compressed # possible values: nested expanded compact compressed
+  style: compressed
 
 plugins:
   - jekyll-environment-variables
+  - jekyll-paginate
+  - jekyll-sitemap
 
 exclude:
   - Gemfile
